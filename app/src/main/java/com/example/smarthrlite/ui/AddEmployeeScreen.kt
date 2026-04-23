@@ -71,6 +71,12 @@ fun AddEmployeeScreen(
                 modifier = Modifier.fillMaxWidth()
             )
 
+            OutlinedTextField(
+                value = department,
+                onValueChange = { department = it },
+                label = { Text("Department") },
+                modifier = Modifier.fillMaxWidth()
+            )
 
 
             Spacer(modifier = Modifier.height(16.dp))

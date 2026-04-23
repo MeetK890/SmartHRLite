@@ -171,7 +171,12 @@ fun LoginScreen(onNavigateToRegister: () -> Unit, onLoginSuccess: (String) -> Un
         }
 
         Spacer(modifier = Modifier.height(16.dp))
-
+        TextButton(
+            onClick = onNavigateToRegister,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Don't have an account? Create one")
+        }
 
     }
 }
