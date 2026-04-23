@@ -217,12 +217,7 @@ fun ModernEmployeeCard(
                             .clip(CircleShape)
                             .background(statusColor)
                     )
-                    Text(
-                        text = if (status == "Present") "Present" else "Absent",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = statusColor,
-                        fontWeight = FontWeight.Bold
-                    )
+
                 }
             }
         }

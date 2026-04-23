@@ -21,7 +21,6 @@ fun DashboardCard(title: String, count: Int) {
             verticalArrangement = Arrangement.Center
         ) {
             Text(text = title)
-            Text(text = count.toString(), style = MaterialTheme.typography.titleMedium)
         }
     }
 }
