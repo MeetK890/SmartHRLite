@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767643058895",
+    "project_id": "smarthrlite-98b41",
+    "storage_bucket": "smarthrlite-98b41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767643058895:android:bf016164f6769531d72dba",
+        "android_client_info": {
+          "package_name": "com.example.smarthrlite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu5WVmwJayhktor_x82_oGcQk_VWHA-bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
