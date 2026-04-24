@@ -9,7 +9,7 @@ import com.example.smarthrlite.ui.theme.SmartHRLiteTheme
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)                                   //yusufqureshi
 
         setContent {
             SmartHRLiteTheme {
@@ -18,3 +18,44 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
